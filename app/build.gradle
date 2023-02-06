@@ -2,9 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
-    ndkVersion "22.1.7171670"
     defaultConfig {
         applicationId "sample.ndk.bitrise.io.bitriseiondksample"
+        ndkVersion "22.1.7171670"
         minSdkVersion 25
         targetSdkVersion 30
         versionCode 1
