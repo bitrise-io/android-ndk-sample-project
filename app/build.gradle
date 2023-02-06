@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
+    ndkVersion "25.2.9519653"
     defaultConfig {
         applicationId "sample.ndk.bitrise.io.bitriseiondksample"
-        ndkVersion "22.1.7171670"
         minSdkVersion 25
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
